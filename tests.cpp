@@ -38,12 +38,7 @@ int main() {
 
 	srand(static_cast<unsigned int>(time(NULL)));
 
-	bool testZone = true;
-
-
 	// TEST ZONE //
-
-	if (testZone) {
 
 		/////////////////////////
 		// changeable variables//
@@ -66,5 +61,4 @@ int main() {
 
 		file.close();
 		return 0;
-	}
 }
